@@ -1,4 +1,4 @@
-# cd-eks-lcm
+# tmc-cd
 
 TMC offers Continous Delivery feature via GitOps. Feature is build on top of FluxCD which offers real time sync of kubernetes configuration driven by git repository.
 
