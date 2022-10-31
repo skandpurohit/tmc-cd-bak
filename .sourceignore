@@ -1,0 +1,17 @@
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: <repository-name>
+spec:
+  ignore: |
+    # exclude prometheus install
+    /flux-configs
+    /prometheus
+    # exclude all
+    #/*
+    # include deploy dir
+    #!/deploy
+    # exclude file extensions from deploy dir
+    #/deploy/**/*.md
+    #/deploy/**/*.txt  
