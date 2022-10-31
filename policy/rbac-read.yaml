@@ -3,9 +3,6 @@ kind: RoleBinding
 metadata:
   annotations:
     tmc.cloud.vmware.com/iam-policy-rid: rid:c:7da40429-0dc8-4fee-91c5-27c76b78d1ae:plysander-aws-tkg:pl-aws-tks-prov:sp-tkg-wrk1
-  labels:
-    tmc.cloud.vmware.com/crd-type: tmc-managed
-    tmc.cloud.vmware.com/managed: "true"
   name: cs-rid-c-7da40429-0dc8-4fee-91c5-27c76b78d1ae-plysander-aws-tkg-pl-aws-tks-prov-sp-tkg-wrk1-rbac-sp-read.authorization.k8s.io-ClusterRole-view
   namespace: default
 roleRef:
