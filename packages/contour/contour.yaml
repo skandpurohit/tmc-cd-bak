@@ -4,9 +4,9 @@ namespace: tanzu-system-ingress
 contour:
  configFileContents: {}
  useProxyProtocol: false
- replicas: 2
+ replicas: 3
  pspNames: "vmware-system-restricted"
- logLevel: warn
+ logLevel: error
 envoy:
  service:
    type: LoadBalancer
